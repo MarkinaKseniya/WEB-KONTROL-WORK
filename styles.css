@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden; 
+    position: relative;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://img.freepik.com/free-vector/modern-desktop-background-geometric-blue-design-vector_53876-135923.jpg?size=626&ext=jpg&ga=GA1.1.1480204119.1715817600&semt=ais_user'); /* Replace with your image URL */
+    background-size: cover;
+    filter: blur(5px); 
+    z-index: -1;
+}
+
+.header {
+    background-color: #0058b5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.header-description {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about, .blog, .graph, .button {
+    background-color: rgba(196, 218, 255, 0.9);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about h2, .blog h2, .graph h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.graph input[type="date"] {
+    margin-right: 10px;
+}
+
+.graph canvas {
+    width: 100%;
+    height: auto;
+}
+
+.button {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.button button {
+    background-color: #0058b5;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #0058b5;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.about-content, .blog-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-text, .blog-text {
+    flex: 1;
+    padding: 30px;
+    text-align: left;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-image img, .blog-image img {
+    width: 400px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.advantages-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.advantages-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.advantages-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background-color: #0058b5;
+    border-radius: 50%;
+}
+
+.join-us {
+    padding: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

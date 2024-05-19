@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>BOT TELEGRAM УЧЕТА ЛИЧНЫХ ФИНАНСОВ</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="header">
+        <h1 class="header-title">BOT TELEGRAM УЧЕТА ЛИЧНЫХ ФИНАНСОВ</h1>
+        <p class="header-description">Подключайтесь к нашему боту в Telegram, чтобы получить незабываемые впечатления!</p>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="about">
+                <h2>О ПРОЕКТЕ</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Давай посмотрим преимущества нашего бота!</p>
+                        <ul class="advantages-list">
+                            <li>Удобство использования: бот всегда в твоем телефоне и компьютере, благодаря Telegram</li>
+                            <li>Скорость: бот работает быстро</li>
+                            <li>Безопасность: благодаря использованию Telegram ваши данный всегда будут в безопасности</li>
+                        </ul>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://i.pinimg.com/564x/3a/2f/4a/3a2f4a8ae7334760732d2df787bb2cde.jpg" alt="About Bot Image">
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <h2>ФУНКЦИИ БОТА</h2>
+                <div class="blog-content">
+                    <div class="blog-image">
+                        <img src="https://i.pinimg.com/564x/e0/99/6a/e0996abf2cc49d103bd7c5b8c6feed8d.jpg" alt="Blog Image">
+                    </div>
+                    <div class="blog-text">
+                        <p>Вот что умеет наш бот!</p>
+                        <ul class="advantages-list">
+                            <li>Добавление/удаление расходов и доходов</li>
+                            <li>Добавление/удаление целей</li>
+                            <li>Составление финансового плана</li>
+                            <li>Просмотр журнала операций и аналитики</li>
+                            <li>Добавление кредитов и инвестиций</li>
+                    </div>
+                </div>
+            </div>
+            <div class="graph">
+                <h2>СТАТИСТИКА ПОЛЬЗОВАТЕЛЕЙ</h2>
+                <p class="join-us">Посмотри нашу статистику! Есть возможность фильтрации по датам!</p>
+                <label for="startDate">Дата начала:</label>
+                <input type="date" id="startDate">
+                <label for="endDate">Дата конца:</label>
+                <input type="date" id="endDate">
+                <canvas id="userGraph"></canvas>
+            </div>
+            <div class="button">
+                <button onclick="navigateToBot()">ПОПРОБОВАТЬ БОТА</button>
+                <p class="join-us">Присоединяйся к нам в Telegram и начинай уже сегодня правильно вести учет своих финансов!</p>
+            </div>
+            <div class="blog">
+                <h2>Больше о боте</h2>
+                <p class="join-us">Добавлена новая функция просмотра аналитики с фильтрацией (по датам, категориям расходов и доходов, счетам)! Присоединяйся к нашему боту, чтобы узнать больше</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Bot Telegram. All rights reserved. By Markina Ksenia</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
